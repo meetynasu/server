@@ -1,0 +1,2 @@
+# server
+Ynasu Server
