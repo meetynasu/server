@@ -13,7 +13,7 @@ from django.contrib import admin
 #
 # router = routers.SimpleRouter()
 # router.register(r'accounts', AccountViewSet)
-# router.register(r'postsold', PostViewSet)
+# router.register(r'postsold', PostViewSet) 
 #
 # accounts_router = routers.NestedSimpleRouter(
 #     router, r'accounts', lookup='authentication'
