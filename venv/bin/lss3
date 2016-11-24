@@ -1,4 +1,4 @@
-#!/Users/sergioruizdavila/Documents/Projects/Ynasu/server/venv/bin/python3
+#!/Users/sergioruizdavila/Documents/Projects/asanni/server/venv/bin/python3
 import boto
 from boto.exception import S3ResponseError
 from boto.s3.connection import OrdinaryCallingFormat

@@ -1,5 +1,6 @@
 from django.conf.urls import include, url
 from django.contrib import admin
+admin.autodiscover()
 
 # from rest_framework.routers import DefaultRouter
 
@@ -13,7 +14,7 @@ from django.contrib import admin
 #
 # router = routers.SimpleRouter()
 # router.register(r'accounts', AccountViewSet)
-# router.register(r'postsold', PostViewSet) 
+# router.register(r'postsold', PostViewSet)
 #
 # accounts_router = routers.NestedSimpleRouter(
 #     router, r'accounts', lookup='authentication'
@@ -28,6 +29,8 @@ urlpatterns = [
     # url(r'^api/v1/', include(router.urls)),
     url(r'^api/v1/', include('authentication.urls')),
     url(r'^api/v1/', include('posts.urls')),
+    url(r'^api/v1/', include('early.urls')),
+    url(r'^api/v1/', include('teachers.urls')),
 
 
     # url(r'^api/v1/', include(router.urls)),

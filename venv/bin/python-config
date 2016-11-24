@@ -1,4 +1,4 @@
-#!/Users/sergioruizdavila/Documents/Projects/Ynasu/server/venv/bin/python
+#!/Users/sergioruizdavila/Documents/Projects/asanni/server/venv/bin/python
 
 import sys
 import getopt

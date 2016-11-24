@@ -1,4 +1,4 @@
-#!/Users/sergioruizdavila/Documents/Projects/Ynasu/server/venv/bin/python3
+#!/Users/sergioruizdavila/Documents/Projects/asanni/server/venv/bin/python3
 
 import sys
 import json
