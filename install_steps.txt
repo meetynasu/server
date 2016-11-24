@@ -18,7 +18,7 @@ CONFIGURAR POSTGRESQL
 
 4. Si no existe la base de datos, la crearemos:
 
-    . CREATE DATABASE asanni_db;
+    . CREATE DATABASE ynasu_db;
 
 5. Creamos el usuario que va a administrar la base de datos:
 
@@ -50,7 +50,7 @@ CONFIGURAR POSTGRESQL
         DATABASES = {
             'default': {
                 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-                'NAME': 'asanni_db',
+                'NAME': 'ynasu_db',
                 'USER': 'sergioruizdavila',
                 'PASSWORD': 'admin',
                 'HOST': 'localhost',
